@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OrdenacionRapidaBarajada",
+            "request": "launch",
+            "mainClass": "OrdenacionRapidaBarajada"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OrdenacionRapida",
+            "request": "launch",
+            "mainClass": "OrdenacionRapida"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ejemplo",
+            "request": "launch",
+            "mainClass": "Ejemplo"
+        }
+    ]
+}
