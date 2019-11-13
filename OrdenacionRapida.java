@@ -25,15 +25,11 @@ public class OrdenacionRapida extends Ordenacion {
 		for(int j = izq; j < der; j++){ // Recorro array
 			if(v[j].compareTo(pivote) <= 0){ // Si es menor o igual que el pivote
 				i++; // Indice que indica hasta donde se encuentran los menores al pivote
-				T aux = v[i]; // Intercambia el valor menor al pivote encontrado
-				v[i] = v[j];    // con el primer valor mayor al pivote que vamos
-				v[j] = aux;     // arrastrando
+				intercambiar(v, i, j);
 			}
 		}
 		//Intercambiamos el pivote para ponerlo detrás de sus menores
-		T aux = v[i+1]; 
-		v[i+1] = v[der];
-		v[der] = aux;
+		intercambiar(v, i+1, der);
 		return i+1;   	
    }
 
